@@ -93,7 +93,7 @@ Cursor. On the first session Claude Code asks you to approve it, because a proje
 
 ## Connecting to Cursor
 <p align="center">
-<img width="50%" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
+<img width="70%" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
 </p>
 Open Cursor MCP settings (`Settings → MCP → Add new MCP server`) or create
 `%USERPROFILE%\.cursor\mcp.json` manually for a global setup, or `.cursor\mcp.json` inside a
