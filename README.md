@@ -1,7 +1,7 @@
 # wizTree MCP
-
+<p align="center">
 <img width="50%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
-
+</p>
 Python **MCP** server that drives [WizTree](https://antibody-software.com/wiztree) from an LLM.
 Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natural language
 *"what's taking up space on drive C:?"*, *"find all files over 1 GB in Downloads"*,
@@ -90,8 +90,9 @@ Cursor. On the first session Claude Code asks you to approve it, because a proje
 ---
 
 ## Connecting to Cursor
-<img width="50%" align="center" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
-
+<p align="center">
+<img width="50%" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
+</p>
 Open Cursor MCP settings (`Settings → MCP → Add new MCP server`) or create
 `%USERPROFILE%\.cursor\mcp.json` manually for a global setup, or `.cursor\mcp.json` inside a
 project to configure it only there:
