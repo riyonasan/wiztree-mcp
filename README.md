@@ -45,14 +45,14 @@ doing the work again.
 Requires Python 3.10+.
 
 ```bash
-cd wiztree-mcp-py
+cd wiztree-mcp
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 The virtual environment has already been created in `.venv`: if that is enough for you, you are set.
 
-The server finds `WizTree64.exe` on its own if the `wiztree-mcp-py` folder sits inside the
+The server finds `WizTree64.exe` on its own if the `wiztree-mcp` folder sits inside the
 WizTree portable folder, or if WizTree is installed in `Program Files`. Otherwise point it
 with the `WIZTREE_EXE` environment variable.
 
@@ -63,7 +63,7 @@ with the `WIZTREE_EXE` environment variable.
 One command, no JSON editing — it handles the merge:
 
 ```bash
-claude mcp add wiztree --scope user -- "C:\path\to\wiztree-mcp-py\.venv\Scripts\python.exe" "C:\path\to\wiztree-mcp-py\wiztree_mcp.py"
+claude mcp add wiztree --scope user -- "C:\path\to\wiztree-mcp\.venv\Scripts\python.exe" "C:\path\to\wiztree-mcp\wiztree_mcp.py"
 ```
 
 `--scope` controls where the registration is stored:
@@ -103,8 +103,8 @@ project to configure it only there:
 {
   "mcpServers": {
     "wiztree": {
-      "command": "C:\\path\\to\\wiztree-mcp-py\\.venv\\Scripts\\python.exe",
-      "args": ["C:\\path\\to\\wiztree-mcp-py\\wiztree_mcp.py"],
+      "command": "C:\\path\\to\\wiztree-mcp\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\wiztree-mcp\\wiztree_mcp.py"],
       "env": {
         "WIZTREE_EXE": "C:\\path\\to\\WizTree64.exe"
       }
@@ -153,9 +153,9 @@ The entry to add to the list:
   config:
     serverName: wiztree
     transport: stdio
-    command: C:\path\to\wiztree-mcp-py\.venv\Scripts\python.exe
+    command: C:\path\to\wiztree-mcp\.venv\Scripts\python.exe
     args:
-      - C:\path\to\wiztree-mcp-py\wiztree_mcp.py
+      - C:\path\to\wiztree-mcp\wiztree_mcp.py
     env:
       WIZTREE_EXE: C:\path\to\WizTree64.exe
     toolCallTimeoutMs: 900000
