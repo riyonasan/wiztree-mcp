@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wiztree": {
+      "command": "C:\\path\\to\\wiztree-mcp-py\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\path\\to\\wiztree-mcp-py\\wiztree_mcp.py"
+      ],
+      "env": {
+        "WIZTREE_EXE": "C:\\path\\to\\WizTree64.exe"
+      }
+    }
+  }
+}

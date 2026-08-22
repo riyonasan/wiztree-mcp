@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiztree-mcp"
+version = "1.0.0"
+description = "MCP server that drives the WizTree disk space analyser on Windows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["mcp>=2.0.0,<3"]
+
+[project.scripts]
+wiztree-mcp = "wiztree_mcp:main"
+
+[tool.setuptools]
+py-modules = ["wiztree_mcp"]

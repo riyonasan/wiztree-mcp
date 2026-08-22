@@ -1,0 +1,25 @@
+# DeepSeek Harness - entry to add to the plugin list.
+#
+# Put this in the profile's cordis.patch.yml, or in the harness home one
+# ($DSH_HOME, default ~/.dsh/cordis.patch.yml).
+#
+# The file is a LIST of plugins at the top level, not an object: add this entry
+# alongside the other items, not nested under a key.
+#
+# Verify with:  dsh --dump-config
+
+- id: mcp-wiztree
+  name: '@deepseek-ai/dsh-mcp-client'
+  config:
+    serverName: wiztree
+    transport: stdio
+    # Windows paths without double quotes: in YAML, double quotes interpret
+    # escape sequences and \U would cause a parsing error.
+    command: C:\path\to\wiztree-mcp-py\.venv\Scripts\python.exe
+    args:
+      - C:\path\to\wiztree-mcp-py\wiztree_mcp.py
+    env:
+      WIZTREE_EXE: C:\path\to\WizTree64.exe
+    # The default is 60000 ms: too short for a full-drive scan,
+    # which without administrator privileges can take minutes.
+    toolCallTimeoutMs: 900000
