@@ -1,6 +1,6 @@
 # wizTree MCP
 
-<img width="25%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
+<img width="40%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
 
 Python **MCP** server that drives [WizTree](https://antibody-software.com/wiztree) from an LLM.
 Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natural language
