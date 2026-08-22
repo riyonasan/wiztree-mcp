@@ -1,8 +1,8 @@
 # wizTree MCP
 <p align="center">
-<img width="25%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
+<img width="50%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
 </p>
--
+
 
 ## How it works
 
