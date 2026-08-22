@@ -10,12 +10,11 @@ Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natura
 Single file: [`wiztree_mcp.py`](wiztree_mcp.py). Works on **Windows** only, because
 WizTree is a Windows application.
 
-<img width="90%" alt="Immagine Codex 22 ago 2026, 12_10_34" src="https://github.com/user-attachments/assets/bbd35d4e-aae7-4d5d-a6b5-95a94874e674" />
 
 ---
 
 ## How it works
-
+<img width="70%" alt="Immagine Codex 22 ago 2026, 12_10_34" src="https://github.com/user-attachments/assets/bbd35d4e-aae7-4d5d-a6b5-95a94874e674" />
 
 WizTree has no API: it has a command line that exports a CSV of everything it has scanned.
 The server uses that.
@@ -36,8 +35,6 @@ half a million files takes ~50 MB and answers a query in about a second.
 Snapshots are reused automatically: if you scanned `C:\` and then ask
 something about `C:\Users\me\Downloads`, the server reuses the existing snapshot instead of
 doing the work again.
-
-<img width="50%" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
 
 ---
 
@@ -93,6 +90,7 @@ Cursor. On the first session Claude Code asks you to approve it, because a proje
 ---
 
 ## Connecting to Cursor
+<img width="50%" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
 
 Open Cursor MCP settings (`Settings → MCP → Add new MCP server`) or create
 `%USERPROFILE%\.cursor\mcp.json` manually for a global setup, or `.cursor\mcp.json` inside a
