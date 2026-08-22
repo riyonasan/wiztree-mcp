@@ -1,7 +1,11 @@
 # wizTree MCP
 <p align="center">
-<img width="50%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
+<img width="25%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
 </p>
+-
+
+## How it works
+
 Python **MCP** server that drives [WizTree](https://antibody-software.com/wiztree) from an LLM.
 Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natural language
 *"what's taking up space on drive C:?"*, *"find all files over 1 GB in Downloads"*,
@@ -10,10 +14,6 @@ Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natura
 Single file: [`wiztree_mcp.py`](wiztree_mcp.py). Works on **Windows** only, because
 WizTree is a Windows application.
 
-
----
-
-## How it works
 <img width="100%" alt="Immagine Codex 22 ago 2026, 12_10_34" src="https://github.com/user-attachments/assets/bbd35d4e-aae7-4d5d-a6b5-95a94874e674" />
 
 WizTree has no API: it has a command line that exports a CSV of everything it has scanned.
