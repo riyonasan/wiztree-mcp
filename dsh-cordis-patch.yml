@@ -15,9 +15,9 @@
     transport: stdio
     # Windows paths without double quotes: in YAML, double quotes interpret
     # escape sequences and \U would cause a parsing error.
-    command: C:\path\to\wiztree-mcp-py\.venv\Scripts\python.exe
+    command: C:\path\to\wiztree-mcp\.venv\Scripts\python.exe
     args:
-      - C:\path\to\wiztree-mcp-py\wiztree_mcp.py
+      - C:\path\to\wiztree-mcp\wiztree_mcp.py
     env:
       WIZTREE_EXE: C:\path\to\WizTree64.exe
     # The default is 60000 ms: too short for a full-drive scan,
