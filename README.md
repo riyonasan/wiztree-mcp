@@ -1,6 +1,6 @@
 # wizTree MCP
 
-<img width="1254" height="1254" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
+<img width="50%" alt="Immagine Codex 22 ago 2026, 11_20_52" src="https://github.com/user-attachments/assets/41ac94ed-4db3-4fff-a39b-894fe73800bd" />
 
 Python **MCP** server that drives [WizTree](https://antibody-software.com/wiztree) from an LLM.
 Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natural language
@@ -10,13 +10,13 @@ Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natura
 Single file: [`wiztree_mcp.py`](wiztree_mcp.py). Works on **Windows** only, because
 WizTree is a Windows application.
 
-<img width="1536" height="1024" alt="Immagine Codex 22 ago 2026, 12_10_34" src="https://github.com/user-attachments/assets/bbd35d4e-aae7-4d5d-a6b5-95a94874e674" />
+<img width="50%" alt="Immagine Codex 22 ago 2026, 12_10_34" src="https://github.com/user-attachments/assets/bbd35d4e-aae7-4d5d-a6b5-95a94874e674" />
 
 ---
 
 ## How it works
 
-<img width="1854" height="2304" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
+<img width="50%" alt="Gemini_Generated_Image_pzvhkrpzvhkrpzvh" src="https://github.com/user-attachments/assets/5b121bf7-047e-4dcd-a667-e50dd209ed08" />
 
 WizTree has no API: it has a command line that exports a CSV of everything it has scanned.
 The server uses that.
