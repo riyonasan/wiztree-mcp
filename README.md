@@ -11,7 +11,7 @@ You can connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask i
 *"what's taking up space on drive C:?"*, *"find all files over 1 GB in Downloads"*,
 *"how much space do videos take in this folder?"*, *"are there any python orphan dependencies that I can cleanup?"*.
 
-**I find it very useful for wsl, python, docker, npm unused cache files cleanup.**
+**I find it very useful for wsl, python, docker, npm unused cache files cleanup. Use local models for better privacy**
 
 Single file: [`wiztree_mcp.py`](wiztree_mcp.py). Works on **Windows** only, because
 WizTree is a Windows application.
