@@ -4,12 +4,14 @@
 </p>
 
 
-## How it works
 
-Python **MCP** server that drives [WizTree](https://antibody-software.com/wiztree) from an LLM.
-Connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natural language
+## How it works
+wizTreeMCP is a Python **MCP** server that drives [WizTree](https://antibody-software.com/wiztree) from an LLM.
+You can connect it to Claude Code, Cursor, or DeepSeek Harness and you can ask in natural language
 *"what's taking up space on drive C:?"*, *"find all files over 1 GB in Downloads"*,
-*"how much space do videos take in this folder?"*.
+*"how much space do videos take in this folder?"*, *"are there any python orphan dependencies that I can cleanup?"*.
+
+**I find it very useful for wsl cache files cleanup and python, docker, npm unused cached files cleanup instead of manual cleanup.**
 
 Single file: [`wiztree_mcp.py`](wiztree_mcp.py). Works on **Windows** only, because
 WizTree is a Windows application.
