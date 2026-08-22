@@ -458,7 +458,7 @@ def _candidate_paths() -> Iterator[Path]:
     env_dir = os.environ.get("WIZTREE_DIR")
     if env_dir:
         directories.append(Path(env_dir))
-    # This file usually lives in <wiztree-portable>/wiztree-mcp-py
+    # This file usually lives in <wiztree-portable>/wiztree-mcp
     directories += [_HERE.parent, _HERE, _HERE.parent.parent, Path.cwd()]
     for key in ("ProgramFiles", "ProgramFiles(x86)", "ProgramW6432"):
         base = os.environ.get(key)
